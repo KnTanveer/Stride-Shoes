@@ -8,9 +8,11 @@
   <link rel="stylesheet" href="style2.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <link rel="stylesheet" href="hero.css">
+<link rel="stylesheet" href="cart.css">
 
 </head>
 <body>
+<script src="app.js"></script>
   <header>
     <div class="logo">
       <img src="logonobg.png" alt="Logo">
@@ -26,7 +28,10 @@
       <div class="search-bar">
         <input type="text" placeholder="Search...">
       </div>
-      <div class="cart"><i class="fas fa-shopping-cart"></i></div>
+      <div class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span>0</span>
+      </div>
     </div>
   </header>
 
@@ -48,63 +53,104 @@
 
   <!-- Tanveer -->
   <main class="card">
-      <section>
+      <section class="item">
           <div class="preview-img-row" >
               <img class="preview-img" src="img/shoeImg.png">        
           <div>
-              <p class="title">Shoe name</p>
-              <p class="description">this is description text</p>
+              <p class="product-name">Shoe Name</p>
+              <p class="price">500$</p>
+          </div>
+          <div class="button">
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
           </div>
       </section>
 
-      <section>
+      <section class="item">
           <div class="preview-img-row" >
           <img class="preview-img" src="img/shoeImg.png">        
           <div>
-              <p class="title">Show name</p>
-              <p class="description">this is description text</p>
+              <p class="product-name">Show name</p>
+              <p class="price">500$</p>
+          </div>
+          <div class="button">
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
           </div>
       </section>
 
-      <section>
+      <section class="item">
           <div class="preview-img-row" >
               <img class="preview-img" src="img/shoeImg.png">        
           </a>
           <div>
-              <p class="title">Show name</p>
-              <p class="description">this is description text</p>
+              <p class="product-name">Show name</p>
+              <p class="price">500$</p>
+          </div>
+          <div class="button">
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
           </div>
       </section>
 
-      <section>
+      <section class="item">
           <div class="preview-img-row" >
               <img class="preview-img" src="img/shoeImg.png">        
           </a>
           <div>
-              <p class="title">Show name</p>
-              <p class="description">this is description text</p>
+              <p class="product-name">Show name</p>
+              <p class="proce">500$</p>
+          </div>
+          <div class="button">
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
           </div>
       </section>
 
-      <section>
+      <section class="item">
           <div class="preview-img-row" >
               <img class="preview-img" src="img/shoeImg.png">        
           </a>
           <div>
-              <p class="title">Show name</p>
-              <p class="description">this is description text</p>
+              <p class="product-name">Show name</p>
+              <p class="price">500$</p>
+          </div>
+          <div class="button">
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
           </div>
       </section>
 
-      <section>
+      <section class="item">
           <div class="preview-img-row" >
               <img class="preview-img" src="img/shoeImg.png">        
           </a>
           <div>
-              <p class="title">Show name</p>
-              <p class="description">this is description text</p>
+              <p class="product-name">Show name</p>
+              <p class="price">500$</p>
+          </div>
+          <div class="button">
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
           </div>
       </section>
+
+      <div class="cart-tab">
+        <h1 class="shopping-cart-title">Shopping Cart</h1>
+        <div class="list-cart">
+
+        </div>
+        <div class="button2">
+            <button class="close">CLOSE</button>
+            <button class="checkout">CHECKOUT</button>
+        </div>
+      </div>
   </main>
 </body>
 </html>
