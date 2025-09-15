@@ -31,7 +31,29 @@
   cursor: pointer;
 }
 
-.description {
+.footer-seperator {
+  border-top: 1px solid #ccc; 
+  margin: 80px 160px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.footer-links {
+  display: block;
+  text-align: center;
+  margin-top: -12px;
+}
+
+.footer-icons {
+  align-items: center;
+}
+
+.description, .footer-text {
   color: rgb(170, 170, 170);
   font-size: 14px;
   font-weight: 400;
