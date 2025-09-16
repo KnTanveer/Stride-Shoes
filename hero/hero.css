@@ -59,30 +59,11 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    margin-top: 40px;
     box-sizing: border-box;
 }
 
-.hero p {
-    
-}
-
-.hero-circle {
-    width: 35vw;
-    height: 35vw;
-    background:#ebebeb;
-    border-radius: 50%;
-    position: absolute;
-    top: 6rem;
-    right: -2rem;
-    z-index: 0;
-}
-
 .hero-shoe {
-    position: relative;
-    transform: rotate(-14deg);
-    margin-top: 7vw;
-    margin-right: -2vw;
+    width: 50vw;
     height: auto;
-    width: 55vw;
-    z-index: 1;
 }

@@ -4,6 +4,8 @@
   column-gap: 10px;
   row-gap: 10px;
   margin: 50px;
+  background: #ebebeb;
+  border-radius: 25px;
 }
 
 .preview-img-row {
