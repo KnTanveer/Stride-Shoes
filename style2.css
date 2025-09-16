@@ -64,20 +64,21 @@
 }
 
 @media (max-width: 700px) {
-  .card{
-    grid-template-columns: 1fr;
-  }
+  .card{ grid-template-columns: 1fr; }
+  .right-header button { display: none;}
+  .header-menu { display: block; }
 }
 
 @media (min-width: 701px) and (max-width: 1000px) {
-  .card{
-    grid-template-columns: 1fr 1fr;
-  }
+  .card{ grid-template-columns: 1fr 1fr; }
+  .right-header button { display: none;}
+  .header-menu { display: block; }
+
 }
 
 @media (min-width: 1300px) {
-  .card{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+  .card{ grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .right-header button { display: block;}
+  .header-menu { display: none;}
 }
 
