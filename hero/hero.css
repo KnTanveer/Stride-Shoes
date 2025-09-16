@@ -75,6 +75,25 @@
     margin-left: 10vw;
     margin-top: -12vw;
     color: #0085ba;
-    border-color: black;
     font-style: oblique;
+}
+
+.hero-text {
+    font-weight: 700;
+    margin-left: 10vw;
+    margin-top: -6vw;
+    color: #fe6101;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.down-arrow {
+    width: 50px;
+    margin-left: 16vw;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateY(10px); }
 }
