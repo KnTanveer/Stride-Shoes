@@ -19,19 +19,27 @@
       <img src="img/stridelogo.png" alt="Logo">
       <p class="company-name">STRIDE</p>
     </div>
-   
+  
     <div class="right-header">
       <a href="index.html">Home</a>
-      <a href="#card" class="btn text">Products</a>
+      <a href="#card">Products</a>
       <a href="about.html">About</a>
       <a>Contact</a>
+
       <img class="header-search-icon" src="img/header/magnifying-glass-solid-full.svg">
       <input type="text" placeholder="Search...">
+
       <img src="img/header/shopping-bag.svg">
-      <img class="header-menu" src="img/header/bars-solid-full.svg">
+      <img class="header-menu" src="img/header/bars-solid-full.svg" onclick="openModal()">
     </div>
   </header>
 
+  <dialog class="header-menu-modal" id="header-menu-modal" hidden>
+    <a class="header-modal-text" href="index.html">Home</a>
+    <a class="header-modal-text" href="#card">Products</a>
+    <a class="header-modal-text" href="about.html">About</a>
+    <a class="header-modal-text" >Contact</a>
+  </dialog>
   <!-- 
   <section class="container">
     <div class="slide-wrapper">
@@ -48,6 +56,7 @@
     </div>
     </section>
   -->
+
   <section class="hero">
     <div></div>
     <div>
