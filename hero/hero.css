@@ -97,3 +97,18 @@
     0%, 100% { transform: translateX(0); }
     50% { transform: translateY(10px); }
 }
+
+@media (max-width: 700px) {
+    .hero-shoe { width: 30vw; }
+    .hero-name { font-size: 70px; margin-left: 9vw; margin-top: -6vw;}
+    .hero-text { font-size: 20px; margin-left: 9vw; margin-top: -9vw; }
+    .down-arrow { width: 45px; }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+    .hero-shoe { width: 40vw; }
+    .hero-name { font-size: 90px; margin-left: 9vw; margin-top: -6vw;}
+    .hero-text { font-size: 20px; margin-left: 9vw; margin-top: -9vw; }
+    .down-arrow { width: 45px; }
+}
+
