@@ -1,77 +1,66 @@
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  background: #ebebeb;
+  width: 100%;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #f5f5f5;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 98%;
-  z-index: 1000;
+.preview-img-row {
+  position: relative;
+  margin: 16px;
+}
+.preview-img {
+  width: 100%;
+  max-width: 250px;
+  margin: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.preview-img:hover {
+  border-radius: 0px;
+  transition: 0.8s;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  height: 40px;
-}
-
-.company-name {
-  flex: 1;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0px;
-  color: #333;
-}
-
-.cart {
-  
-  font-size: 24px;
+.title {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
   cursor: pointer;
 }
 
-.right-header {
+.footer-seperator {
+  border-top: 1px solid #ccc; 
+  margin: 80px 160px;
+}
+
+.footer-row {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.footer-links {
+  display: block;
+  text-align: center;
+  margin-top: -12px;
+}
+
+.footer-icons {
   align-items: center;
 }
 
-.right-header input {
-  padding: 6px 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  outline: none;
+.description, .footer-text {
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.right-header img {
-  width: 28px;
-  margin: 5px;
+.title, .description {
+    margin: 16px;
 }
 
-.right-header a {
-  border: none;
-  background-color: #f5f5f5;
-  margin: 0px 5px;
-  text-decoration: none;
-  color: black;
-}
-
-.right-header a:hover {
-  text-decoration: underline;
-}
-
-.header-menu {
-  display: none;
-}

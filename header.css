@@ -1,0 +1,102 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.company-name {
+  flex: 1;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  color: #333;
+}
+
+.cart {
+  
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.right-header input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.right-header img {
+  width: 28px;
+  margin: 5px;
+}
+
+.header-search-icon {
+  width: 20px;
+  display: none;
+}
+
+.right-header a {
+  border: none;
+  background-color: #f5f5f5;
+  margin: 0px 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.right-header a:hover {
+  text-decoration: underline;
+}
+
+.header-menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .card{ grid-template-columns: 1fr; }
+  .right-header a { display: none;}
+  .header-menu { display: block; }
+  .right-header input { display: none; }
+  .header-search-icon { display: block; }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .card{ grid-template-columns: 1fr 1fr; }
+  .right-header a { display: none;}
+  .header-menu { display: block; }
+}
+
+@media (min-width: 1300px) {
+  .card{ grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .right-header a { display: block;}
+  .header-menu { display: none;}
+}
