@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
-  border-top: 1px solid #ccc;
   width: 100%;
 }
 
