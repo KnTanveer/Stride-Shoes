@@ -27,11 +27,18 @@
 .product-description button {
   border: none;
   background-color: white;
+  font-size: x-large;
+  font-weight: 500;
   border-radius: 50px;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin: 5px 0px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-description button:hover {
+  transform: translateY(-2px);
 }
 
 .product-card {
