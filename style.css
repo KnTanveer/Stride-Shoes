@@ -19,6 +19,27 @@
   cursor: pointer;
 }
 
+.product-description {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.product-description button {
+  border: none;
+  background-color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  margin: 5px 0px;
+}
+
+.product-card {
+  background-color: #ebebeb;
+  border-radius: 15px; 
+  padding: 20px; 
+}
+
 .product-name {
   font-size: 22px;
   font-weight: 600;
