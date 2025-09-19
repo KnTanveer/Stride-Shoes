@@ -1,14 +1,21 @@
-function openModal() {
-    const dialog = document.getElementById('header-menu-modal');
-    dialog.showModal(); 
-}
+const dailog = document.getElementById('header-menu');
+const menuIcon = document.getElementById('header-menu');
 
-document.addEventListener('DOMContentLoaded', function () {
-    const dialog = document.getElementById('header-menu-modal');
-
-    dialog.addEventListener('click', function (event) {
-        if (event.target === dialog) {
-            dialog.close();
-        }
-    });
+menuIcon.addEventListener('clcik', () => {
+    dialog.showModal();
 });
+
+dialog.addEventListener('click', (event) => {
+    const rect = dialog.getBoundingClientRect();
+
+    const isInDialog = (
+      event.clientX >= rect.left &&
+      event.clientX <= rect.right &&
+      event.clientY >= rect.top &&
+      event.clientY <= rect.bottom
+    );
+
+    if (!isInDialog) {
+      dialog.close();
+    }
+  });
