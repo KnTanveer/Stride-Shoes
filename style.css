@@ -4,6 +4,8 @@
   column-gap: 10px;
   row-gap: 10px;
   width: 100%;
+  background-color: #456882;
+  padding: 20px 0px
 }
 
 .card section {
@@ -26,7 +28,8 @@
 
 .product-description button {
   border: none;
-  background-color: white;
+  background-color: #ebebeb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   font-size: x-large;
   font-weight: 500;
   border-radius: 50px;
@@ -42,7 +45,9 @@
 }
 
 .product-card {
-  background-color: #ebebeb;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  width: 220px;
   border-radius: 15px; 
   padding: 20px; 
 }
