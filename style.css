@@ -1,4 +1,9 @@
 .card {
+  width: 100%;
+  background-color: #456882;
+}
+
+.product-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
@@ -48,8 +53,17 @@
   background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   width: 220px;
-  border-radius: 15px; 
-  padding: 20px; 
+  border-radius: 15px;  
+}
+
+.product-card-header {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Arial Narrow', Arial, sans-serif; 
+  color: #ebebeb;
+  margin-left: 10vw;
+  margin-top: 10vw;
+  display: flex;
 }
 
 .product-name {

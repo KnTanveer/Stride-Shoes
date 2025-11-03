@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +37,6 @@ header {
 }
 
 .cart {
-  
   font-size: 24px;
   cursor: pointer;
 }
@@ -75,7 +73,7 @@ header {
 
 .right-header a:hover, .header-modal-text {
   text-decoration: underline;
-}
+}         
 
 .header-menu {
   display: none;
